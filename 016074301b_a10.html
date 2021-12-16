@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="016074301B_a10.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>GitHub account inspector</legend>
+            <label for="username">Enter a GitHub username 
+                <input type="text" id="username" placeholder="Enter User Name" required>
+            </label>
+            <label for="selectID">Select what information do you want to inspect: 
+                <select name="selectID" id="selectID" required>
+                    <!-- <option value="repos_url" selected="selected">Repos</option>
+                    <option value="followers_url">Followers</option>
+                    <option value="subscriptions_url">Subscriptions</option>
+                    <option value="organizations_url">Organizations</option> -->
+                </select>
+            </label>
+            <input type="submit" id="submit">
+            <textarea id="result"></textarea>
+        </fieldset>
+    </form>
+
+    <script src="016074301B_a10.js"></script>
+</body>
+</html>

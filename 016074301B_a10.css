@@ -1,0 +1,15 @@
+*{
+    margin: 3px;
+}
+label{
+    display: block;
+}
+#result{
+    overflow-y: scroll;
+    resize: none;
+    /* display: block; */
+    width: 100%; 
+    height: 500px;
+}
+.invalid { border: solid red; }
+.valid { border: solid green }
